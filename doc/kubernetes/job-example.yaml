@@ -13,7 +13,7 @@ spec:
           imagePullPolicy: Always
           command: [ "/bin/bash", "-c", "--" ]
           args:
-            - "wget https://raw.githubusercontent.com/ray-project/ray/master/doc/kubernetes/example_scripts/job_example.py &&
+            - "wget https://raw.githubusercontent.com/manickam91/ray/master/doc/kubernetes/example_scripts/job_example.py &&
               python job_example.py"
           resources:
             requests:
